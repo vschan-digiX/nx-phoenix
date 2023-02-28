@@ -13,9 +13,6 @@ export default function Home(props:any) {
       dispatch(fetchPokemon())
   }, [])
   
-  useEffect(() => {
-    console.log(pokemon)
-}, [pokemon])
 
   return (
       <ScrollView >
