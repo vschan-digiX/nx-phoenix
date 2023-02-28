@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@phoenix/models": ["libs/models/src/index.ts"],
+      "@phoenix/services": ["libs/services/src/index.ts"],
+      "@phoenix/store": ["libs/store/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
